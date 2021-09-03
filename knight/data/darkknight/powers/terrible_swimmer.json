@@ -1,0 +1,16 @@
+{
+	"type": "origins:conditioned_attribute",
+	"name": "Terrible Swimmer",
+	"description": "You're slower on water and will take damage over time on it.",
+	"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_base",
+			"value": -0.5
+		},
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": ">=",
+			"compare_to": 0.3
+		}
+}

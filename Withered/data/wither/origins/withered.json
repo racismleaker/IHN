@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"toomanyorigins:wither_toxins",
+		"origins:nether_spawn",
+		"toomanyorigins:black_thumb",
+		"toomanyorigins:scorched_structure",
+		"wither:soul_shield",
+		"toomanyorigins:wither_immunity",
+		"wither:unholy"
+	],
+	"icon": "minecraft:wither_rose",
+	"order": 7,
+	"impact": 1,
+    "unchoosable": false,
+    "name": "Withered",
+    "description": "Truly toxic",
+    "upgrades":{
+        "condition": "minecraft:end/kill_dragon",
+        "origin": "wither:adaptwithered",
+        "announcement": "You have evolved... Best check your origin again..."
+    }
+}

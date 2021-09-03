@@ -1,0 +1,28 @@
+{
+    "type": "origins:multiple",
+    "effects": {
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:poison",
+      "minecraft:wither"
+    ]
+    },
+    "fire": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+          "type": "origins:fire"
+        }
+      },
+      "armor": {
+          "type": "origins:attribute",
+          "modifier": {
+            "name": "-2 armor",
+            "attribute": "minecraft:generic.armor_toughness",
+            "value": -2,
+            "operation": "addition"
+          }
+      },
+      "hidden": false,
+      "name": "Withered",
+      "description": "Your body has gained immunities to simple things such as fire, poison, and wither effect. But you still have space cancer. Wither skeletons also don't attack on sight."
+}

@@ -1,0 +1,27 @@
+{
+	"name": "Unholy Place",
+	"description": "Surrounded by darkness, you're weaker and slower in the nether.",
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 1,
+		"duration_per_stack": 20,
+		"effects": [
+			{
+				"effect": "minecraft:weakness",
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": false
+			},
+			{
+				"effect": "minecraft:slowness",
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": false
+			}
+		],
+		"condition": {
+			 "type": "origins:dimension",
+    			 "dimension": "minecraft:nether"
+		}
+	}
+}

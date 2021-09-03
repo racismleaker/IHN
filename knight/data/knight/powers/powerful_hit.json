@@ -1,0 +1,11 @@
+{
+  "type": "origins:target_action_on_hit",
+  "name": "Powerful Hit",
+  "description": "You'll send enemies flying after you hit them, with a cooldown of a few seconds between each hit",
+  "entity_action": {
+    "type": "origins:add_velocity",
+    "space": "local",
+    "z": -1
+  },
+  "cooldown": 300
+}

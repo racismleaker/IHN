@@ -1,0 +1,21 @@
+{
+  "type": "origins:multiple",
+  "name": "Melee Fighter",
+  "description": "You can't use any ranged weapon.",
+  "no_ranged": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [{
+          "item": "bow"
+        },
+        {
+          "item": "trident"
+        },
+        {
+          "item": "crossbow"
+        }
+      ]
+    }
+  }
+}

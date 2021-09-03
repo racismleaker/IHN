@@ -1,0 +1,34 @@
+{
+	"type": "origins:damage_over_time",
+	"name": "Protection Compulsion",
+	"description": "You'll get anxiety if you're not wearing full armor that is iron or better, taking damage every few seconds.",
+	"interval": 100,
+	"onset_delay": 1,
+	"damage": 2,
+	"damage_easy": 1,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+            				"ingredient":{
+          				"tag": "knight:sword"
+					}
+			    	}
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+            				"ingredient":{
+          				"tag": "knight:sword"
+					}
+				}
+			}
+			
+		]
+	}
+}

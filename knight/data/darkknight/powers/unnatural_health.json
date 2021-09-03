@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Unnatural Health",
+    "description": "By constantly getting soaked in blood, you have more health than before.", 
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.max_health",
+        "value": 10,
+        "operation": "addition"
+    }
+}

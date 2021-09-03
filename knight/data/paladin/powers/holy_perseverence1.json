@@ -1,0 +1,58 @@
+{
+	"type": "origins:active_self",
+	"cooldown": 1,
+	"hud_render": {
+	  "should_render":false
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [ 
+		{
+                "type": "origins:change_resource",
+                "change": -50,
+                "resource": "paladin:holy_perseverence"
+            },
+		{
+		  "type": "origins:execute_command",
+		  "command": "playsound block.beacon.power_select master @s ~ ~ ~ 1 1",
+		  "permission_level": 4
+		},
+		{
+		   "type": "origins:execute_command",
+		   "command": "execute at @e[tag=undead,distance=1..15] run summon lightning_bolt ~ ~ ~",
+	   	   "permission_level": 4
+		},
+		{
+		  "type": "origins:apply_effect",
+		  "effect": {
+		     "effect": "minecraft:resistance",
+		     "duration": 300,
+ 		     "amplifier": 4
+		}
+		},
+		{
+		  "type": "origins:execute_command",
+		  "command": "execute at @s run particle minecraft:totem_particle ~ ~ ~ 0.3 0.3 0.3 0.8 10 force",
+		  "permission_level": 4
+		}
+	  ]
+	},
+
+   "condition": {
+        "type": "origins:resource",
+        "inverted": false,
+        "comparison": ">=",
+        "resource": "paladin:holy_perseverence",
+        "compare_to": 50
+    },
+		"name": "Holy Perseverence",
+		"hidden": true,
+		"description": "Smites the undead and makes you very resistent.",
+		"key": {
+   		 "key": "key.origins.secondary_active"
+		}
+}
+
+
+
+

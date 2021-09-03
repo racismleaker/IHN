@@ -1,0 +1,19 @@
+{
+  "type": "origins:attacker_action_when_hit",
+  "entity_action": {
+    "type": "origins:add_velocity",
+    "space": "local",
+    "y": 1, 
+    "z": -1
+  },
+    "damage_condition": {
+    "type": "origins:attacker",
+    	"entity_condition": {
+    	"type": "origins:in_tag",
+    	"tag": "knight:undead"
+	 }
+	},
+  "cooldown": 20,
+  "name": "Holy Aura",
+  "description": "Undead mobs will get pushed away after hitting you."
+}

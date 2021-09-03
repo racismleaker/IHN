@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "name": "Natural Defense",
+    "description": "You have some natural armor.", 
+    "modifier": {
+        "name": "Max armor increase",
+        "attribute": "minecraft:generic.armor",
+        "value": 8,
+        "operation": "addition"
+    }
+}

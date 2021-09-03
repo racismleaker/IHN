@@ -1,0 +1,55 @@
+{
+	"type": "origins:active_self",
+	"cooldown": 1,
+	"hud_render": {
+	  "should_render":false
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [ 
+		{
+                "type": "origins:change_resource",
+                "change": -30,
+                "resource": "knight:warriors_power"
+            },
+		{
+		  "type": "origins:execute_command",
+		  "command": "playsound minecraft:entity.zombie.infect master @s ~ ~ ~ 1 1",
+		  "permission_level": 4
+		},
+		{
+		  "type": "origins:execute_command",
+		  "command": "effect give @s minecraft:strength 45",
+		  "permission_level": 4
+		},
+		{
+		  "type": "origins:execute_command",
+		  "command": "effect give @s minecraft:resistance 45",
+		  "permission_level": 4
+		},
+		{
+		  "type": "origins:execute_command",
+		  "command": "execute at @s run particle minecraft:angry_villager ~ ~ ~ 0.3 0.3 0.3 0.8 10 force",
+		  "permission_level": 4
+		}
+	  ]
+	},
+
+   "condition": {
+        "type": "origins:resource",
+        "inverted": false,
+        "comparison": ">=",
+        "resource": "knight:warriors_power",
+        "compare_to": 30
+    },
+		"name": "Warrior's Power",
+		"hidden": true,
+		"description": "Grant strenght and resistance to you.",
+		"key": {
+   		 "key": "key.origins.primary_active"
+		}
+}
+
+
+
+

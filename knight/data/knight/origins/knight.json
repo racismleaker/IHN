@@ -1,0 +1,22 @@
+{
+	"powers":[
+		"knight:sword_expert",
+		"knight:natural_warrior",
+			"knight:natural_warrior1",
+		"knight:warriors_power",
+			"knight:warriors_power1",
+			"knight:warriors_power_hit",
+			"knight:warriors_power_hit1",
+		"knight:powerful_hit",
+		"knight:melee_fighter",
+		"knight:terrible_swimmer",
+		"knight:paladin_path",
+			"knight:dark_knight_path",
+		"knight:nether_star"
+	],
+	"icon": "minecraft:iron_sword",
+	"order": 1,
+	"impact": 2,
+	"name": "Knight",
+	"description": "A powerful warrior well versed in swordmanship. They will be able to evolve beyond their powers with the right choice..."
+}

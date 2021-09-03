@@ -1,0 +1,28 @@
+{
+	"powers":[
+		"paladin:give_lightbringer",
+			"paladin:nodrop",
+		"knight:sword_expert",
+		"paladin:natural_defense",
+		"paladin:holy_perseverence",
+			"paladin:holy_perseverence1",
+			"paladin:holy_perseverence_hit",
+		"paladin:sacred_aura",
+		"paladin:holy_aura",
+		"paladin:protection",
+		"knight:melee_fighter",
+		"paladin:terrible_swimmer1",
+		"paladin:holy_diet",
+		"paladin:unholy_place",
+		"paladin:dark_weakness",
+		"paladin:sworn_oath",
+		"paladin:protection_compulsion",
+			"knight:undead_tag"
+	],
+	"icon": "minecraft:diamond_sword",
+	"unchoosable": true,
+	"order": 1,
+	"impact": 2,
+	"name": "Paladin",
+	"description": "Evolved warrior that chose the path of light. It's in a constant battle against darkness."
+}

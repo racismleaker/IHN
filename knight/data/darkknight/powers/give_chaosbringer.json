@@ -1,0 +1,15 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+	"type": "origins:execute_command",
+        "command": "give @s minecraft:netherite_sword{display:{Name:'[{\"text\":\"Chaosbringer\"}]'},Enchantments:[{id:fire_aspect,lvl:2},{id:sharpness,lvl:5},{id:sweeping_edge,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:vanishing_curse,lvl:1}]}"
+    },
+    "entity_action_respawned": {
+        "type": "origins:execute_command",
+        "command": "give @s minecraft:netherite_sword{display:{Name:'[{\"text\":\"Chaosbringer\"}]'},Enchantments:[{id:fire_aspect,lvl:2},{id:sharpness,lvl:5},{id:sweeping_edge,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:vanishing_curse,lvl:1}]}"
+    },
+    "execute_chosen_when_orb": true,
+    "hidden": false,
+    "name": "Chaosbringer",
+    "description": "Your sword evolves with you, corrupting into Chaosbringer. It will always come back to you."
+}

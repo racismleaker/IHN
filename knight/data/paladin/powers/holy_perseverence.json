@@ -1,0 +1,14 @@
+{
+    "type": "origins:resource",
+    "min": 0,
+    "max": 50,
+    "start_value": 0,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 8
+    },
+    "hidden": false,
+    "name": "Holy Perseverence",
+    "description": "Each time you are hit, the bar will slowly fill. Once it's full, you can toggle it with secondary key to smite every undead surrounding you and become invulnerable for a few seconds."
+}
