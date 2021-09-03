@@ -81,6 +81,7 @@
             "resource": "ashskel:bladeofinj_timer",
             "comparison": "=",
             "compare_to": 1
-        }
+        },
+        "interval": 10
     }
 }
