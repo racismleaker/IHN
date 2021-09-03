@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"ashskel:undead",
+        "ashskel:milk",
+		"ashskel:bladeofinj_adapt",
+		"ashskel:soultread",
+		"ashskel:leech",
+		"ashskel:size",
+		"ashskel:mob",
+		"ashskel:heavy",
+		"ashskel:netherbound",
+		"ashskel:withered",
+		"ashskel:wilting"
+	],
+	"icon": "minecraft:wither_skeleton_skull",
+	"order": 10,
+	"impact": 0,
+    "unchoosable": true,
+	"name": "Ashen Skeleton",
+	"description": "DESCRIPTION HERE"
+}

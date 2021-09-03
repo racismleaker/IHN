@@ -1,6 +1,6 @@
 {
     "name": "Blade of Injury+",
-    "description": "You can give yourself wither I for 5 seconds and during that time you can hit enemies for a 50% chance to apply wither I for 5 seconds to them.",
+    "description": "You can give yourself wither II for 5 seconds and during that time you can hit enemies for a 50% chance to apply wither II for 5 seconds to them.",
     "type": "origins:multiple",
     "timer": {
         "type": "origins:resource",
@@ -16,7 +16,7 @@
             "effect": {
              "effect": "minecraft:wither",
             "duration": 20,
-            "amplifier": 0
+            "amplifier": 1
             }
             }
     },
@@ -24,7 +24,7 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "ashskel:bladeofinj_timer",
+            "resource": "ashskel:bladeofinj_adapt_timer",
             "change": -1
         },
         "interval": 20
@@ -33,7 +33,7 @@
             "type": "origins:active_self",
             "entity_action": {
             "type": "origins:change_resource",
-            "resource": "ashskel:bladeofinj_timer",
+            "resource": "ashskel:bladeofinj_adapt_timer",
             "change": 5
             },
             "key": {
@@ -54,7 +54,7 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:wither",
-            "amplifier": 0,
+            "amplifier": 1,
             "duration": 200
         }
     },
@@ -63,7 +63,7 @@
     "cooldown": 10,
     "condition": {
         "type": "origins:resource",
-        "resource": "ashskel:bladeofinj_timer",
+        "resource": "ashskel:bladeofinj_adapt_timer",
         "comparison": ">",
         "compare_to": 0
     },
@@ -80,7 +80,7 @@
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "ashskel:bladeofinj_timer",
+            "resource": "ashskel:bladeofinj_adapt_timer",
             "comparison": "=",
             "compare_to": 1
         },

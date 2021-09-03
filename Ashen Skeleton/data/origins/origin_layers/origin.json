@@ -1,6 +1,7 @@
 {
   "replace": false,
   "origins": [
-    "ashskel:ashskeleton"
+    "ashskel:ashskeleton",
+    "ashskel:adapted_ashskeleton"
   ]
 }
