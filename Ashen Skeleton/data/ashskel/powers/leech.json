@@ -7,10 +7,10 @@
 	"type": "origins:self_action_on_hit",
 		"entity_action": {
 			"type": "origins:feed",
-			"food": 2,
+			"food": 4,
 			"saturation": 1
 		},
-        "cooldown": 5,
+        "cooldown": 100,
 		"damage_condition": {
 			"type": "origins:amount",
             "comparison": ">=",
@@ -25,7 +25,7 @@
             "type": "origins:heal",
             "amount": 1
         },
-        "cooldown": 5,
+        "cooldown": 100,
         "damage_condition": {
             "type": "origins:amount",
             "compare_to": 2,

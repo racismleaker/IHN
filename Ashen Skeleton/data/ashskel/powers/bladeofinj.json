@@ -1,6 +1,6 @@
 {
     "name": "Blade of Injury",
-    "description": "You can give yourself wither I for 5 seconds and during that time you can hit enemies for a 50% chance to apply wither I for 5 seconds to them.",
+    "description": "You can activate your bloodline during that time you can hit enemies for a 50% chance to apply wither I for 5 seconds to them.",
     "type": "origins:multiple",
     "timer": {
         "type": "origins:resource",

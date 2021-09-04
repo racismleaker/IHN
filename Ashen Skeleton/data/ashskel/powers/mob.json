@@ -36,18 +36,13 @@
                 "permission_level": 4
                 },
                 {
-                "type": "origins:execute_command",
-                "command": "team join mob @e[tag=!hateunow]",
-                "permission_level": 4
-                },
-                {
                     "type": "origins:execute_command",
                     "command": "team join mob @e[type=minecraft:wither_skeleton,tag=!hateunow]",
                     "permission_level": 4
                     },
                     {
                         "type": "origins:execute_command",
-                        "command": "team join mob @e[type=minecraft:blaze,tag=!hateunow]",
+                        "command": "team join mob @e[type=#minecraft:blaze,tag=!hateunow]",
                         "permission_level": 4
                         }
             ]

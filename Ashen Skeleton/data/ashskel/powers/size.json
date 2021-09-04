@@ -12,7 +12,7 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "scale set pehkui:width 1",
+          "command": "scale set pehkui:width 1.01",
           "permission_level": 4
         }
         ]

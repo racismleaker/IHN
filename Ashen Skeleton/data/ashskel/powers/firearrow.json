@@ -10,7 +10,7 @@
         "type": "origins:projectile",
         "projectile": "minecraft:arrow"
     },
-    "cooldown": 200,
+    "cooldown": 10,
     "hud_render": {
         "should_render": true,
         "bar_index": 5

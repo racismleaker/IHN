@@ -1,8 +1,5 @@
 {
     "type": "origins:multiple",
-    "nether spawn": {
-        "type": "origins:nether_spawn"
-    },
     "damage": {
         "type": "origins:conditioned_attribute",
           "modifier": {

@@ -10,7 +10,8 @@
 		"ashskel:netherbound",
 		"ashskel:withered",
 		"ashskel:wilting",
-		"ashskel:reset"
+		"ashskel:reset",
+		"origins:nether_spawn"
 	],
 	"icon": "minecraft:wither_skeleton_skull",
 	"order": 10,
