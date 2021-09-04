@@ -16,7 +16,7 @@
 	"order": 10,
 	"impact": 0,
 	"name": "Ashen Skeleton",
-	"description": "DESCRIPTION HERE",
+	"description": "Your charred body rises from the depths of the nether, covered in the ash remains of your comrades you seek new purpose to escape the horrible dread of your past.",
 	"upgrades":{
         "condition": "minecraft:end/kill_dragon",
         "origin": "ashskel:adapted_ashskeleton",

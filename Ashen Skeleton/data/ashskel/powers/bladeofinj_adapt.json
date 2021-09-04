@@ -7,18 +7,10 @@
         "min": 0,
         "max": 5,
         "hud_render": {
-            "should_render": false,
+            "should_render": true,
             "bar_index": 2,
             "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png"
-        },
-        "min_action": {
-            "type": "origins:apply_effect",
-            "effect": {
-             "effect": "minecraft:wither",
-            "duration": 20,
-            "amplifier": 1
-            }
-            }
+        }
     },
     "drain": {
         "type": "origins:action_over_time",
@@ -41,7 +33,7 @@
             },
             "cooldown": 200,
             "hud_render": {
-                "should_render": true,
+                "should_render": false,
                 "bar_index": 2,
                 "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png"
             }
@@ -81,7 +73,7 @@
         "condition": {
             "type": "origins:resource",
             "resource": "ashskel:bladeofinj_adapt_timer",
-            "comparison": "=",
+            "comparison": "==",
             "compare_to": 1
         },
         "interval": 10

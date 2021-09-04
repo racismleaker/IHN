@@ -1,7 +1,7 @@
 {
     "type": "origins:conditioned_attribute",
           "modifier": {
-            "name": "+0.06 speed on soul sand",
+            "name": "+4 armor near blazes and blazeborns",
             "attribute": "minecraft:generic.armor",
             "value": 4,
             "operation": "addition"
@@ -11,7 +11,18 @@
               "type": "origins:or",
               "conditions": [
                   {
-                      "type": "origins:"
+                    "type": "origins:command",
+                    "command": "execute if entity @e[type=minecraft:blaze,distance=..5]",
+                    "compare_to": 0,
+                    "comparison": ">",
+                    "inverted": false
+                  },
+                  {
+                  "type": "origins:command",
+                    "command": "execute if entity @e[type=#minecraft:blazeborn,distance=..5]",
+                    "compare_to": 0,
+                    "comparison": ">",
+                    "inverted": false
                   }
               ]
             }

@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"ashskel:undead",
+		"ashskel:firearrow.json",
         "ashskel:milk",
 		"ashskel:bladeofinj_adapt",
 		"ashskel:soultread",
@@ -16,6 +17,6 @@
 	"order": 10,
 	"impact": 0,
     "unchoosable": true,
-	"name": "Ashen Skeleton",
+	"name": "Adapted Ashen Skeleton",
 	"description": "DESCRIPTION HERE"
 }
