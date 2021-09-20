@@ -12,13 +12,24 @@
 		},
         "cooldown": 100,
 		"damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
 			"type": "origins:amount",
             "comparison": ">=",
             "compare_to": 2
 		},
+        {
+                "type": "origins:name",
+                "name": "thorns",
+                "inverted": true
+            }
+    ]
+},
 	"hud_render": {
         "should_render": false
-    },
+    }
+},
         "heal": {
         "type": "origins:self_action_on_hit",
 		"entity_action": {
@@ -26,11 +37,23 @@
             "amount": 1
         },
         "cooldown": 100,
+        "hud_render": {
+            "should_render": false 
+        },
         "damage_condition": {
-            "type": "origins:amount",
-            "compare_to": 2,
-            "comparison": ">="
-        }
+            "type": "origins:and",
+            "conditions": [
+                {
+			"type": "origins:amount",
+            "comparison": ">=",
+            "compare_to": 2
+		},
+        {
+                "type": "origins:name",
+                "name": "thorns",
+                "inverted": true
+            }
+    ]
     }
     },
     "hungy": {
@@ -48,6 +71,5 @@
             "operation": "multiply_total",
             "value": -0.75
         }
-        }
-    
+    }
 }
