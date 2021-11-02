@@ -1,0 +1,282 @@
+{
+    "name": "Alchemist's enhancements",
+    "description": "GO READ THE WIKI THERE'S TOO MUCH",
+    "type": "origins:multiple",
+    "strength": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 1111,
+            "name": "strength stronk"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:strength"
+        }
+    },
+    "weakness": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": -1111,
+            "name": "weakness wek"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:weakness"
+        }
+    },
+    "speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": 110.05,
+            "name": "Increased sped speed"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:speed",
+            "min_amplifier": 0
+        }
+    },
+    "slow": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": -1110.05,
+            "name": "Increased slow slew"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:slowness",
+            "min_amplifier": 0
+        }
+    },
+    "resist": {
+        "type": "origins:modify_damage_taken",
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:resistance",
+            "min_amplifier": 0
+        },
+            "modifier": {
+                "name": "resistance do morr",
+                "operation": "multiply_total",
+                "value": -0.05
+            }
+    },
+    "haste1": {
+        "type": "origins:modify_break_speed",
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:haste"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.05
+        }
+    },
+    "haste2": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "multiply_total",
+            "value": 0.05,
+            "name": "haste atac sped"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:haste",
+            "min_amplifier": 0
+        }
+    },
+    "fatigue1": {
+        "type": "origins:modify_break_speed",
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:mining_fatigue",
+            "min_amplifier": 0
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.05
+        }
+    },
+    "fatigue2": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "multiply_total",
+            "value": -0.05,
+            "name": "slew atac sped"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:mining_fatigue",
+            "min_amplifier": 0
+        }
+    },
+    "instaheal": {
+        "type": "origins:action_when_damage_taken",
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "indirectMagic"
+                },
+                {
+                    "type": "origins:amount",
+                    "comparison": ">=",
+                    "compare_to": -4
+                }
+            ]
+        },
+            "entity_action": {
+                "type": "origins:heal",
+                "amount": 2
+            }
+    },
+    "instaheal2": {
+        "type": "origins:action_when_damage_taken",
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "arrow"
+                },
+                {
+                    "type": "origins:amount",
+                    "comparison": ">=",
+                    "compare_to": -1
+                }
+            ]
+        },
+            "entity_action": {
+                "type": "origins:heal",
+                "amount": 2
+        }
+    },
+    "instaharm": {
+        "type": "origins:action_when_damage_taken",
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "indirectMagic"
+                },
+                {
+                    "type": "origins:amount",
+                    "comparison": ">=",
+                    "compare_to": 1
+                }
+            ]
+        },
+            "entity_action": {
+                "type": "origins:heal",
+                "amount": -2
+            }
+    },
+    "instaharm2": {
+        "type": "origins:action_when_damage_taken",
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "arrow"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "magic"
+                },
+                {
+                    "type": "origins:amount",
+                    "comparison": ">=",
+                    "compare_to": 1
+                }
+            ]
+        },
+            "entity_action": {
+                "type": "origins:heal",
+                "amount": -2
+            }
+        },
+    "regeneration": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": 0.2
+        },
+        "interval": 10,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:regeneration",
+            "min_amplifier": 0
+        }
+    },
+    "wither": {
+        "type": "origins:action_when_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "wither"
+        },
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": -0.5
+        }
+    },
+    "poison": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": -0.4
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:poison",
+            "min_amplifier": 0
+        }
+    },
+    "absorption": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "name": "absoprtion increase bom",
+            "operation": "addition",
+            "value": 14
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:absorption"
+        }
+    },
+    "health boost": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "name": "health boost increase bom",
+            "operation": "addition",
+            "value": 14
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:health_boost"
+        }
+    }
+}

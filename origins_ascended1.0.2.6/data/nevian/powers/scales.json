@@ -1,0 +1,33 @@
+{
+    "type": "origins:multiple",
+    "tough": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "armortough",
+            "attribute": "generic.armor_toughness",
+            "operation": "addition",
+            "value": 3
+        }
+    },
+    "boom": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "explosion"
+            },
+            {
+                "type": "origins:name",
+                "name": "explosion.player"
+            }
+        ],
+        "modifier": {
+            "name": "boom do less",
+            "operation": "multiply_total",
+            "value": -0.18
+        }
+    }
+}
+}
