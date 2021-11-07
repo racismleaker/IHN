@@ -1,0 +1,29 @@
+{
+    "type": "origins:restrict_armor",
+    "head": {
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:unbreaking",
+			"comparison": ">=",
+			"compare_to": 3
+    },
+    "chest": {
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:unbreaking",
+			"comparison": ">=",
+			"compare_to": 3
+		  },
+    "legs": {
+            "type": "origins:enchantment",
+			"enchantment": "minecraft:unbreaking",
+			"comparison": ">=",
+			"compare_to": 3
+		  },
+    "feet": {
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:unbreaking",
+			"comparison": ">=",
+			"compare_to": 3
+		  },
+	"name": "Reckless",
+	"description": "You can only wear armor without unbreaking 3."
+}
