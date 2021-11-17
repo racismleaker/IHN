@@ -1,19 +1,25 @@
 {
-    "hidden": true,
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:apply_effect",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": "0",
+    "max_stacks": "1",
+    "duration_per_stack": "11",
+    "effect": {
         "effect": "minecraft:resistance",
-        "duration": 40,
+        "duration": 20,
         "amplifier": 0,
-        "show_particles": false
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
     },
-    "interval": 20,
     "condition": {
         "type": "origins:and",
         "conditions": [
-        {
-            "type": "origins:equipped_item",
+            {
+        "type": "origins:power_active",
+        "power": "*:levitate_toggle"
+    },
+    {
+        "type": "origins:equipped_item",
             "equipment_slot": "legs",
         "item_condition": {
             "type": "origins:enchantment",
@@ -21,11 +27,10 @@
             "comparison": "==",
             "compare_to": 10
         }
-    },
-    {
-        "type": "origins:power_active",
-        "power": "*:levitate_toggle"
     }
-        ]
-}
+    ]
+},
+    "name": "resistance levitate",
+    "description": "This makes you resistance while it's toggled.",
+    "hidden": true
 }
