@@ -1,6 +1,0 @@
-{
-  "type": "origins:entity_group",
-  "name": "Undead",
-  "description": "You belong with the undead, though that doesn't prevent them from attacking you.",
-  "group": "undead"
-}

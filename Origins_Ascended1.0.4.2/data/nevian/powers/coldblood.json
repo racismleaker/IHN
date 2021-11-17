@@ -1,0 +1,73 @@
+{
+    "type": "origins:multiple",
+    "warm": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "addition",
+            "value": 0.4
+            },
+            "tick_rate": 20,
+            "condition": {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:temperature",
+                    "comparison": ">=",
+                    "compare_to": 2
+                }
+            }
+    },
+    "warm2": {
+        "type": "origins:conditioned_attribute",
+            "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": 0.1
+            },
+            "tick_rate": 20,
+            "condition": {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:temperature",
+                    "comparison": ">=",
+                    "compare_to": 2
+                }
+            }
+    },
+    "cold": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "addition",
+            "value": -0.4
+            },
+            "tick_rate": 20,
+            "condition": {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:temperature",
+                    "comparison": "<=",
+                    "compare_to": 0.3
+                }
+            }
+    },
+    "cold2": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": -0.1
+            },
+            "tick_rate": 20,
+            "condition": {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:temperature",
+                    "comparison": "<=",
+                    "compare_to": 0.3
+                }
+            }
+    },
+    "name": "Coldblooded",
+    "description": "As a reptilan you are more active in heated biomes and slow in cold biomes."
+}

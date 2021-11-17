@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "nevian:reptilemass",
+        "nevian:alch",
+        "nevian:coldblood",
+        "nevian:reckless",
+        "nevian:reset"
+    ],
+    "icon": "minecraft:ender_eye",
+    "order": 2,
+    "impact": 1,
+    "name": "Nevian",
+    "description": "Your being is freed from the captivity from the witches, they have scarred you with many experiences you would want to wash away with your new predatory nature.",
+    "upgrades": {
+        "condition": "minecraft:end/kill_dragon",
+        "origin": "nevian:adapted_nevian",
+        "announcement": "You have evolved... Best check your origin again..."
+    }
+}

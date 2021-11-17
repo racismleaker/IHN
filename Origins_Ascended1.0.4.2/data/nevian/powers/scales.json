@@ -1,0 +1,27 @@
+{
+    "name": "Hardened scales",
+    "description": "Your scales have evolved to resist the annoying creepers.",
+    "type": "origins:multiple",
+    "tough": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "armortough",
+            "attribute": "generic.armor_toughness",
+            "operation": "addition",
+            "value": 3
+        }
+    },
+    "boom": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+                "type": "origins:amount",
+                "comparison": ">=",
+                "compare_to": 19
+    },
+        "modifier": {
+            "name": "boom do less",
+            "operation": "multiply_total",
+            "value": -0.18
+        }
+    }
+}
