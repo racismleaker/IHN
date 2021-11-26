@@ -3,12 +3,13 @@
         "origins:climbing",
         "upgraded:master_of_webs_up",
         "origins:carnivore",
-        "origins:fragile",
         "origins:no_cobweb_slowdown",
         "origins:arthropod",
         "upgraded:neutral_spider",
         "upgraded:neutral_cave_spider",
-        "upgraded:summon_cave_spiders"
+        "upgraded:summon_cave_spiders",
+        "roubar:kineater",
+        "roubar:poisonfangs"
     ],
     "icon": {
         "item": "minecraft:cobweb"

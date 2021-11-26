@@ -3,10 +3,12 @@
         "origins:climbing",
         "origins:master_of_webs",
         "origins:carnivore",
-        "origins:fragile",
+        "roubar:eightlegs",
         "origins:arthropod",
         "roubar:reset",
-        "roubar:scalereset"
+        "roubar:scalereset",
+        "roubar:kineater",
+        "roubar:poisonfangs"
     ],
     "icon": {
         "item": "minecraft:cobweb"

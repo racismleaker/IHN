@@ -1,0 +1,26 @@
+{
+    "name": "Kin eater",
+    "description": "Immunity to hunger and poison, meats are more effective in saturation and hunger",
+    "type": "origins:multiple",
+    "immunity": {
+        "type": "origins:effect_immunity",
+            "effects": [
+        "minecraft:hunger",
+        "minecraft:poison"
+    ]
+    },
+    "based": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:meat"
+        },
+        "food_modifier": {
+            "operation": "multiply_total",
+            "value": 0.20
+        },
+        "saturation_modifier": {
+            "operation": "multiply_total",
+            "value": 0.20
+        }
+    }
+}
