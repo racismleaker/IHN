@@ -9,7 +9,8 @@
         "upgraded:neutral_cave_spider",
         "upgraded:summon_cave_spiders",
         "roubar:kineater",
-        "roubar:poisonfangs"
+        "roubar:poisonfangs",
+        "upgraded:rng"
     ],
     "icon": {
         "item": "minecraft:cobweb"
