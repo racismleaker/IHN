@@ -1,7 +1,7 @@
 {
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
-    "max_stacks": 128,
+    "max_stacks": 50,
     "duration_per_stack": 10,
     "effects": [
         {
@@ -14,7 +14,7 @@
     ],
     "condition": {
         "type": "origins:power_active",
-        "power": "origins:phantomize",
+        "power": "roubar:phantomize",
         "inverted": false
     },
     "name": "Required Focus",

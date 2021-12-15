@@ -1,6 +1,6 @@
 {
     "powers": [
-        "origins:phantomize",
+        "roubar:phantomize",
         "origins:translucent",
         "origins:phasing",
         "origins:invisibility",
@@ -12,7 +12,10 @@
         "roubar:reset",
         "roubar:scalereset",
         "roubar:pvp_toggle",
-        "roubar:uhc"
+        "roubar:uhc",
+        "roubar:phcooldown",
+        "roubar:phtcooldown",
+        "roubar:phantominteract"
     ],
     "icon": {
         "item": "minecraft:phantom_membrane"

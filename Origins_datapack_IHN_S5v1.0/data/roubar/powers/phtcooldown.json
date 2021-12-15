@@ -1,0 +1,13 @@
+{
+    "hidden": true,
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:trigger_cooldown",
+        "power": "roubar:phcooldown"
+    },
+    "cooldown": 100,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+      }
+}

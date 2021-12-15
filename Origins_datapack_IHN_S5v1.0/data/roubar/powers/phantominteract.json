@@ -1,0 +1,21 @@
+{
+    "type": "origins:multiple",
+    "item": {
+        "type": "origins:prevent_item_use",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "roubar:phantomize"
+        }
+    },
+    "mine": { 
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -10
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "roubar:phantomize"
+        }
+    }
+}
