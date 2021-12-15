@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "upgraded:die",
+        "roubar:pvp_toggle",
+        "roubar:uhc"
+    ],
+    "icon": {
+        "item": "minecraft:bedrock"
+    },
+    "unchoosable": true,
+    "order": 11,
+    "impact": 1,
+    "name": "God",
+    "description": "You are god."
+}

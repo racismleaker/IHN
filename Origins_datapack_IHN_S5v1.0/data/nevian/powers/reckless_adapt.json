@@ -1,0 +1,73 @@
+{
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:and",
+		"conditions":[{
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:unbreaking",
+			"comparison": ">=",
+			"compare_to": 3
+		  },
+		  {
+			"type": "origins:ingredient",
+            "ingredient": {
+                "tag": "nevian:netherarmor"
+            },
+            "inverted": true
+		  }
+		]
+    },
+    "chest": {
+        "type": "origins:and",
+		"conditions":[{
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:unbreaking",
+			"comparison": ">=",
+			"compare_to": 3
+		  },
+		  {
+			"type": "origins:ingredient",
+            "ingredient": {
+                "tag": "nevian:netherarmor"
+            },
+            "inverted": true
+		  }
+		]
+		  },
+    "legs": {
+        "type": "origins:and",
+		"conditions":[{
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:unbreaking",
+			"comparison": ">=",
+			"compare_to": 3
+		  },
+		  {
+			"type": "origins:ingredient",
+            "ingredient": {
+                "tag": "nevian:netherarmor"
+            },
+            "inverted": true
+		  }
+		]
+		  },
+    "feet": {
+        "type": "origins:and",
+		"conditions":[{
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:unbreaking",
+			"comparison": ">=",
+			"compare_to": 3
+		  },
+		  {
+			"type": "origins:ingredient",
+            "ingredient": {
+                "tag": "nevian:netherarmor"
+            },
+            "inverted": true
+		  }
+		]
+		  },
+	"name": "Reckless",
+	"description": "You can only wear armor without unbreaking 3 with the exception of netherite."
+}

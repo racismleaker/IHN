@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "nevian:reptilemass",
+        "nevian:alch_adapt",
+        "nevian:coldblood",
+        "nevian:scales",
+        "nevian:reckless_adapt",
+        "roubar:pvp_toggle",
+        "roubar:uhc"
+    ],
+    "icon": "minecraft:ender_eye",
+    "order": 2,
+    "impact": 1,
+    "name": "Adapted Nevian",
+    "description": "Ever since you killed the source of magical prowess of the giant beast, you connected to the core primordial state of being, allowing you to excess the peak of the food chain as the apex predator.",
+    "unchoosable": true
+}
