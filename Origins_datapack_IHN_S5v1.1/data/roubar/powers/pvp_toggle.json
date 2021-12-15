@@ -1,4 +1,5 @@
 {
+    "hidden": true,
     "type": "origins:multiple",
     "pvpon": {
         "type": "origins:invulnerability",
@@ -15,11 +16,6 @@
     "pvpoff":{
         "type": "origins:invulnerability",
         "damage_condition": {
-            "type": "origins:attacker",
-            "entity_condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
                 "type": "origins:attacker",
                 "entity_condition": {
                     "type": "origins:or",
@@ -37,17 +33,14 @@
                             "compare_to": 0
                         }
                     ]
-                }
-            },
-            {
+            }
+        },
+        "entity_condition": {
                 "type": "origins:resource",
                 "resource":"roubar:pvp_toggle_toggle",
                 "comparison": "==",
                 "compare_to": 1
-                    }
-                ]
-            }
-        }
+                }
     },
     "toggle": {
         "type": "origins:resource",

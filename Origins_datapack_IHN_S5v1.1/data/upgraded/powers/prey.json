@@ -11,7 +11,6 @@
             "show_icon": true
         }
     ],
-    "condition": {
         "entity_condition": {
             "type": "origins:and",
             "conditions": [
@@ -28,8 +27,7 @@
                     "inverted": true
                 }
             ]
-        }
-    },
+        },
     "description": "See cobweb",
     "name": "Prey on the Weak",
     "hidden": false

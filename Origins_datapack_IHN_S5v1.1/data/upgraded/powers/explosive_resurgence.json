@@ -2,7 +2,7 @@
     "type": "origins:action_on_land",
     "entity_action": {
         "type": "origins:execute_command",
-        "command": "/summon minecraft:fireball ~ ~ ~ {life:1200,pickup:0,Motion:[0.0,-2.5,0.0],ExplosionPower:-5}",
+        "command": "summon minecraft:fireball ~ ~ ~ {life:1200,pickup:0,Motion:[0.0,-2.5,0.0],ExplosionPower:-5}",
         "permission_level": 4
     },
     "condition": {

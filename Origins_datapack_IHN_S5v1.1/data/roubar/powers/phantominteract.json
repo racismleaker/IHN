@@ -1,4 +1,5 @@
 {
+    "hidden": true,
     "type": "origins:multiple",
     "item": {
         "type": "origins:prevent_item_use",

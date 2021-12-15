@@ -1,0 +1,134 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "shaking": {
+        "type": "origins:shaking",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "upgraded:blastling_resource",
+            "comparison": ">",
+            "compare_to": 3
+        }
+    },
+    "martrydom": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:clear_effect"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:speed",
+                            "amplifier": 1,
+                            "duration": 160,
+                            "show_particles": false,
+                            "show_icon": false
+                        },
+                        {
+                            "effect": "minecraft:weakness",
+                            "amplifier": 9,
+                            "duration": 160,
+                            "show_particles": false,
+                            "show_icon": false
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 3,
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:instant_damage",
+                            "amplifier": 99,
+                            "show particles": false
+                        }
+                    }
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "upgraded:blastling_resource",
+                    "change": 160
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "upgraded:blastling_resource2",
+                    "change": 300
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "upgraded:blastling_resource2",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    },
+    "invincible": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": 
+                {
+                    "effect": "minecraft:instant_damage",
+                    "amplifier": 1,
+                    "duration": 20,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "upgraded:blastling_resource",
+            "comparison": ">",
+            "compare_to": 10
+        }
+    },
+    "tickeffect": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:smoke ~ ~ ~ 0.5 0 0.5 0.2 5 normal",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:cloud ~ ~ ~ 0.5 0 0.5 0.2 4 normal",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "particle minecraft:cloud ~ ~ ~ 0.5 0 0.5 0.2 3 normal"
+                }
+            ]
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "upgraded:blastling_resource",
+            "comparison": ">",
+            "compare_to": 3
+        }
+    },
+    "skincolor": {
+        "type": "origins:model_color",
+        "red": 1,
+        "green": 0.3,
+        "blue": 0.3,
+        "alpha": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "upgraded:blastling_resource",
+            "comparison": ">",
+            "compare_to": 3
+        }
+    }
+}

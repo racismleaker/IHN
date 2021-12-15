@@ -1,0 +1,10 @@
+{
+    "name": "Phasing",
+    "description": "You can phase through walls and are invisible",
+    "type": "origins:invisibility",
+    "render_armor": true,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:phantomize"
+    }
+  }

@@ -2,8 +2,8 @@
     "powers": [
         "roubar:phantomize",
         "origins:translucent",
-        "origins:phasing",
-        "origins:invisibility",
+        "roubar:phasing",
+        "roubar:invisibility",
         "origins:burn_in_daylight",
         "origins:fragile",
         "upgraded:phantom_weakness",

@@ -13,12 +13,6 @@
       "type": "apoli:food_level",
       "comparison": ">",
       "compare_to": 6
-    },
-    {
-        "type": "origins:resource",
-        "resource": "roubar:phcooldown",
-        "compare_to": 0,
-        "comparison": "=="
     }
 ]
     }

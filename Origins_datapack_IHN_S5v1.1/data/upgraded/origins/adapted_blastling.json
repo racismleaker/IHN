@@ -1,7 +1,6 @@
 {
     "powers": [
         "upgraded:explode_jump",
-        "upgraded:martyrdom",
         "upgraded:blastling_explode",
         "upgraded:change_blastling_resource",
         "upgraded:blastling_resource",
