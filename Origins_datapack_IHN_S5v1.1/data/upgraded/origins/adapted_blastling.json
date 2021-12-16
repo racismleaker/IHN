@@ -4,6 +4,8 @@
         "upgraded:blastling_explode",
         "upgraded:change_blastling_resource",
         "upgraded:blastling_resource",
+        "upgraded:change_blastling_resource2",
+        "upgraded:blastling_resource2",
         "upgraded:blastling_ticking",
         "roubar:camouflage",
         "upgraded:unstable_frame",
