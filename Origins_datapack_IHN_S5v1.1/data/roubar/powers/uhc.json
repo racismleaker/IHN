@@ -1,4 +1,41 @@
 {
     "hidden": true,
+    "type": "origins:multiple",
+    "regen": {
     "type": "origins:disable_regen"
+    },
+    "poison_on_roof": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:poison",
+                "duration": 200,
+                "amplifer": 0,
+                "show_particles": false
+            }
+        },
+        "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_nether"
+            },
+            {
+                "type": "origins:height",
+                "comparison": ">",
+                "compare_to": 127
+            },
+            {
+                "type": "origins:on_block",
+                "block_condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:bedrock"
+                    }
+            }
+            ]
+        },
+        "interval": 600
+    }
 }

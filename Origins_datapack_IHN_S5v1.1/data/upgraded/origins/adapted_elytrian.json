@@ -8,7 +8,8 @@
         "upgraded:less_kinetic_damage",
         "upgraded:boost",
         "roubar:pvp_toggle",
-        "roubar:uhc"
+        "roubar:uhc",
+        "roubar:freebird"
     ],
     "icon": "minecraft:elytra",
     "unchoosable": true,

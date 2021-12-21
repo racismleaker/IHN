@@ -1,0 +1,13 @@
+{
+    "name": "Freebird",
+    "description": "You feel rejuvinated during long flights",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 4
+    },
+    "condition": {
+    "type": "origins:fall_flying"
+    },
+    "interval": 600
+}

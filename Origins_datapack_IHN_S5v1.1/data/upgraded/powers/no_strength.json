@@ -1,8 +1,20 @@
 {
     "type": "origins:effect_immunity",
     "effects": [
-        "minecraft:strength"
+        "minecraft:strength",
+        "minecraft:regeneration",
+        "minecraft:poison",
+        "minecraft:resistance",
+        "minecraft:slowness",
+        "minecraft:fire_resistance",
+        "minecraft:slowfall",
+        "minecraft:levitation",
+        "minecraft:jump_boost"
     ],
-    "name": "Hollow Muscles",
-    "description": "Strength status effects have no effect on you."
+    "condition": {
+        "type": "origins:power_active",
+        "power": "roubar:phantomize"
+    },
+    "name": "Hollow Muscles?!?!?!?!",
+    "description": "Status effects fall off when you phantomize."
 }

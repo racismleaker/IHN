@@ -14,7 +14,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "minecraft:chorus_fruit"
+                        "item": "minecraft:phantom_membrane"
                     }
                 }
             },
@@ -32,7 +32,7 @@
         "type": "origins:and",
         "actions": [{
                 "type": "origins:execute_command",
-                "command": "clear @s chorus_fruit 1"
+                "command": "clear @s phantom_membrane 1"
             },
             {
                 "type": "origins:execute_command",
@@ -40,7 +40,7 @@
             },
             {
                 "type": "origins:heal",
-                "amount": 1
+                "amount": 6
             }
         ]
     },

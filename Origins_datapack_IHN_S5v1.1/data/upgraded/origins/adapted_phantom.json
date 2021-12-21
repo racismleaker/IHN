@@ -14,7 +14,8 @@
         "roubar:uhc",
         "roubar:phcooldown",
         "roubar:phtcooldown",
-        "roubar:phantominteract"
+        "roubar:phantominteract",
+        "roubar:elytrianmembrane"
     ],
     "icon": {
         "item": "minecraft:phantom_membrane"

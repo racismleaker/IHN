@@ -11,7 +11,8 @@
         "roubar:reset",
         "roubar:scalereset",
         "roubar:pvp_toggle",
-        "roubar:uhc"
+        "roubar:uhc",
+        "roubar:keepburning"
     ],
     "icon": {
         "item": "minecraft:blaze_powder"

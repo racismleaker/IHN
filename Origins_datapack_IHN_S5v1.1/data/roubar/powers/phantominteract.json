@@ -12,7 +12,7 @@
         "type": "origins:modify_break_speed",
         "modifier": {
             "operation": "multiply_base",
-            "value": -10
+            "value": -100
         },
         "condition": {
             "type": "origins:power_active",

@@ -2,7 +2,7 @@
     "type": "origins:multiple",
     "ender_pearl": {
     "type": "origins:active_self",
-    "cooldown": 6000,
+    "cooldown": 2400,
     "hud_render": {
         "should_render": false
     },
@@ -51,7 +51,7 @@
     },
     "ender_eye": {
     "type": "origins:active_self",
-    "cooldown": 4800,
+    "cooldown": 1200,
     "hud_render": {
         "should_render": false
     },
