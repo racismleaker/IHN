@@ -5,10 +5,10 @@
         "type": "origins:heal",
         "amount": 2
     },
-    "interval": 6000,
+    "interval": 600,
     "block_condition": {
         "type": "origins:height",
         "comparison": ">",
-        "compare_to": 179
+        "compare_to": 219
     }
 }

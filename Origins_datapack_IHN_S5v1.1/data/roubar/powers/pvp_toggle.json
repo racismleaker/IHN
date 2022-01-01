@@ -2,45 +2,55 @@
     "hidden": true,
     "type": "origins:multiple",
     "pvpon": {
-        "type": "origins:invulnerability",
-        "damage_condition": {
-            "type": "origins:attacker",
-            "entity_condition": {
+        "type": "origins:modify_damage_taken",
+        "bientity_condition": {
+            "type": "origins:actor_condition",
+            "condition": {
                 "type": "origins:resource",
                 "resource": "roubar:pvp_toggle_toggle",
                 "comparison": "==",
                 "compare_to": 1
             }
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        },
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_end",
+            "inverted": true
         }
     },
     "pvpoff":{
-        "type": "origins:invulnerability",
-        "damage_condition": {
-                "type": "origins:attacker",
-                "entity_condition": {
-                    "type": "origins:or",
-                    "conditions": [
-                        {
-                            "type": "origins:resource",
-                            "resource":"roubar:pvp_toggle_toggle",
-                            "comparison": "==",
-                            "compare_to": 1
-                        },
-                        {
-                            "type": "origins:resource",
-                            "resource":"roubar:pvp_toggle_toggle",
-                            "comparison": "==",
-                            "compare_to": 0
-                        }
-                    ]
+        "type": "origins:modify_damage_taken",
+        "bientity_condition": {
+            "type": "origins:actor_condition",
+            "condition": {
+                "type": "origins:power",
+                "power": "roubar:pvp_toggle"
             }
         },
-        "entity_condition": {
-                "type": "origins:resource",
-                "resource":"roubar:pvp_toggle_toggle",
-                "comparison": "==",
-                "compare_to": 1
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+            "type": "origins:resource",
+            "resource": "roubar:pvp_toggle_toggle",
+            "compare_to": 1,
+            "comparison": "=="
+                },
+                {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_end",
+            "inverted": true
                 }
+            ]
+        }
     },
     "toggle": {
         "type": "origins:resource",

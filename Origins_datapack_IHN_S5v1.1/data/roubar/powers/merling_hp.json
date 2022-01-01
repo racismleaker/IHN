@@ -1,0 +1,17 @@
+{
+    "name": "Merling recovery",
+    "description": "It's about the flow, water is the element of change.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 1
+    },
+    "interval": 600,
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:category",
+            "category": "ocean"
+        }
+    }
+}

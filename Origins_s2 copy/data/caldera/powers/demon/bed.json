@@ -1,6 +1,0 @@
-{
-	"type": "origins:prevent_sleep",
-	"message": "You are restless...",
-	"name": "Insomnia",
-	"description": "You are unable to sleep."
-}

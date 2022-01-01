@@ -1,6 +1,6 @@
 {
     "name": "Lava baths",
-    "description": "While chilling in lava heal over time",
+    "description": "\"Firebending comes from the breath! Not the muscles!\"",
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:heal",

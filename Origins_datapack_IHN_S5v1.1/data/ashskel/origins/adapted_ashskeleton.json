@@ -19,7 +19,7 @@
     ],
     "icon": "minecraft:wither_skeleton_skull",
     "order": 2,
-    "impact": 0,
+    "impact": 2,
     "unchoosable": true,
     "name": "Adapted Ashen",
     "description": "Ashes to ashes, dust to dust, after finally having revenge on your arch nemesis, you feel relief and with it you feel a great power surging through you."

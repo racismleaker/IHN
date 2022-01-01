@@ -14,7 +14,8 @@
 	"snow:color",
 	"snow:particle",
 	"roubar:pvp_toggle",
-	"roubar:uhc"
+	"roubar:uhc",
+	"snow:snow_toggle"
 	],
 	"icon": "minecraft:snowball",
 	"order": 11,

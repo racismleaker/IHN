@@ -7,13 +7,8 @@
     },
     "retain_state": false,
     "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {        
       "type": "apoli:food_level",
-      "comparison": ">",
-      "compare_to": 6
-    }
-]
-    }
+      "comparison": ">=",
+      "compare_to": 3
+            }
 }

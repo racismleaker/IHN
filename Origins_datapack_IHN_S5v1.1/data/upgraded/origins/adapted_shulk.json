@@ -1,10 +1,10 @@
 {
     "powers": [
-        "origins:shulker_inventory",
+        "roubar:shulker_inventory",
         "origins:strong_arms",
         "origins:strong_arms_break_speed",
         "origins:no_shield",
-        "origins:more_exhaustion",
+        "roubar:more_exhaustion",
         "upgraded:harder_shell",
         "upgraded:juggernaut",
         "upgraded:juggernaut_toggle",

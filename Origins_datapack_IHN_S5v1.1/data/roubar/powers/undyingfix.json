@@ -1,0 +1,12 @@
+{
+    "hidden": true,
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+        "type": "origins:delay",
+        "ticks": 40,
+        "action": {
+        "type": "origins:heal",
+        "amount": 30
+        }
+    }
+}

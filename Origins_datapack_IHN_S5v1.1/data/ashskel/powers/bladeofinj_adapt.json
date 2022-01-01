@@ -31,7 +31,7 @@
         "key": {
             "key": "key.origins.primary_active"
         },
-        "cooldown": 200,
+        "cooldown": 500,
         "hud_render": {
             "should_render": true,
             "bar_index": 9,

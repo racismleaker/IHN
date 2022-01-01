@@ -38,18 +38,6 @@
                     ]
                 },
                 {
-                    "type": "origins:delay",
-                    "ticks": 3,
-                    "action": {
-                        "type": "origins:apply_effect",
-                        "effect": {
-                            "effect": "minecraft:instant_damage",
-                            "amplifier": 99,
-                            "show particles": false
-                        }
-                    }
-                },
-                {
                     "type": "origins:change_resource",
                     "resource": "upgraded:blastling_resource",
                     "change": 160
@@ -70,17 +58,6 @@
     },
     "invincible": {
         "type": "origins:prevent_death",
-        "entity_action": {
-            "type": "origins:apply_effect",
-            "effect": 
-                {
-                    "effect": "minecraft:instant_damage",
-                    "amplifier": 1,
-                    "duration": 20,
-                    "show_particles": false,
-                    "show_icon": false
-                }
-            },
         "condition": {
             "type": "origins:resource",
             "resource": "upgraded:blastling_resource",

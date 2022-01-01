@@ -1,13 +1,84 @@
 {
     "name": "Freebird",
-    "description": "You feel rejuvinated during long flights",
+    "description": "You feel rejuvinated during long flights. [Note due to origin things night vision makes you unable to heal]",
+    "type": "origins:multiple",
+    "change": {
     "type": "origins:action_over_time",
     "entity_action": {
-        "type": "origins:heal",
-        "amount": 4
+        "type": "origins:if_else",
+        "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+            "type": "origins:heal",
+            "amount": 1
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 20,
+                    "action": {
+                        "type": "origins:change_resource",
+                        "change": 15,
+                        "resource": "roubar:freebird_resources",
+                        "operation": "set"
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:freebird_resources",
+            "comparison": "==",
+            "compare_to": 30
+        },
+        "else_action": {
+            "type": "origins:change_resource",
+            "change": 1,
+            "resource": "roubar:freebird_resources"
+        }
+    },
+    "falling_action": {
+        "type": "origins:change_resource",
+        "resource": "roubar:freebird_resources",
+        "operation": "set",
+        "change": 0
     },
     "condition": {
-    "type": "origins:fall_flying"
+        "type": "origins:and",
+        "conditions": [
+            {
+        "type": "origins:fall_flying"
+            },
+            {
+                "type": "origins:status_effect",
+                "effect": "minecraft:luck",
+                "min_amplifier": 0,
+                "inverted": true
+            }
+        ]
     },
-    "interval": 600
+    "interval": 20
+    },
+    "resources": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 30,
+        "start_value": 0,
+        "hud_render": {
+        "should_render": false
+        }
+    },
+    "effect":{
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:luck",
+                "amplifier": 0,
+                "duration": 20,
+                "show_particles": false
+            }
+        },
+        "cooldown": 5
+    }
 }

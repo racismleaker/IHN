@@ -6,7 +6,7 @@
     "effect": {
         "effect": "minecraft:slowness",
         "duration": 100,
-        "amplifier": 5,
+        "amplifier": 4,
         "is_ambient": true,
         "show_particles": false,
         "show_icon": true

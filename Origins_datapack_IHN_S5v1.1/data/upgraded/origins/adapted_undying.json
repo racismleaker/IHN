@@ -11,12 +11,13 @@
         "roubar:soul_speed_c2",
         "upgraded:more_hp_unfazed",
         "roubar:pvp_toggle",
-        "roubar:uhc"
+        "roubar:uhc",
+        "roubar:undyingfix"
     ],
     "icon": "minecraft:soul_lantern",
     "unchoosable": true,
     "order": 11,
-    "impact": 1,
+    "impact": 2,
     "name": "Adapted Undying",
     "description": "In search for why your race seems to be forever trapped, slaying the dragon has granted not answers, but has allowed you to grow more comfortable in this prison."
 }

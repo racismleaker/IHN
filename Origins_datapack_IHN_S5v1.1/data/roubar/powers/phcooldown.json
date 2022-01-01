@@ -1,8 +1,0 @@
-{
-    "hidden": true,
-    "type": "origins:cooldown",
-    "cooldown": 100,
-    "hud_render": {
-        "should_render": false
-    }
-}

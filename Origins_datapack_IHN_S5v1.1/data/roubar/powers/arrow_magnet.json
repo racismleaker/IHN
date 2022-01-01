@@ -1,0 +1,26 @@
+{
+    "name": "Arrow magnet",
+    "description": "It's like being a chick magnet except it hurts",
+    "type": "origins:multiple",
+    "magnet": {
+    "type": "origins:action_over_time",
+    "interval": 2,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute as @e[type=#minecraft:arrows,tag=!shot,distance=..30,nbt=!{inGround:1b}] at @s facing entity @e[tag=elytrian,sort=nearest,limit=1] eyes run teleport @s ^ ^ ^5",
+        "permission_level": 4
+    },
+    "condition": {
+        "type": "origins:fall_flying"
+    }
+},
+"notmagnet":{
+    "type": "origins:action_over_time",
+    "interval": 2,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute as @e[type=#minecraft:arrows,distance=..3] run tag @s add shot",
+        "permission_level": 4
+    }
+}
+}

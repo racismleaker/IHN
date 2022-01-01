@@ -68,7 +68,7 @@
         "type": "origins:action_over_time",
         "falling_action": {
             "type": "origins:heal",
-            "amount": 5
+            "amount": 3
         },
         "condition": {
             "type": "origins:resource",

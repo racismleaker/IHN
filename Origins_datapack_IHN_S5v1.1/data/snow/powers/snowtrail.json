@@ -1,9 +1,7 @@
 {
-    "name": "Snow Trail",
-    "description": "Everywhere you go, you leave behind a trail of snow. As long as you're crouching",
-    "type": "origins:multiple",
-    "trail": {
     "type": "origins:action_over_time",
+    "name": "Snow Trail",
+    "description": "Everywhere you go, you leave behind a trail of snow.",
     "entity_action": {
         "type": "origins:and",
         "actions": [{
@@ -36,23 +34,10 @@
                 "inverted": true
             },
             {
-                "type": "origins:sneaking",
-                "inverted": false
+                "type": "origins:power_active",
+                "power": "*:snow_toggle"
             }
         ]
     },
     "interval": 2
-    },
-    "speed": {
-        "type": "origins:conditioned_attribute",
-        "modifier": {
-        "attribute": "minecraft:generic.movement_speed",
-        "operation": "addition",
-        "value": 0.3
-    },
-    "tick_rate": 1,
-    "condition": {
-        "type": "origins:sneaking"
-        }
-    }
 }

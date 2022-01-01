@@ -12,9 +12,8 @@
         "upgraded:phantom_flight_v2",
         "roubar:pvp_toggle",
         "roubar:uhc",
-        "roubar:phcooldown",
-        "roubar:phtcooldown",
         "roubar:phantominteract",
+        "roubar:suffocationfix",
         "roubar:elytrianmembrane"
     ],
     "icon": {
@@ -22,7 +21,7 @@
     },
     "unchoosable": true,
     "order": 11,
-    "impact": 1,
+    "impact": 3,
     "name": "Adapted Phantom",
     "description": "You've slain the terror of the skies! You feel stronger as the darkness enshrouds you..."
 }

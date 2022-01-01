@@ -33,7 +33,7 @@
         "key": "key.origins.secondary_active",
         "continuous": false
     },
-    "cooldown": 50,
+    "cooldown": 100,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",

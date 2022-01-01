@@ -1,0 +1,34 @@
+{
+    "name": "Hoarder",
+    "description": "You have access to 9 inventory slots which don't drop on death.",
+    "type": "origins:multiple",
+    "inv":{
+    "type": "origins:inventory",
+    "title": "container.shulker_inventory_power",
+    "drop_on_death": false,
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    },
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "minecraft:luck",
+        "min_amplifier": 0,
+        "inverted": true
+    }
+},
+"ouch": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:luck",
+            "amplifier": 0,
+            "duration": 100,
+            "show_particles": false,
+            "ambient": true
+        }
+    },
+    "cooldown": 5
+}
+}

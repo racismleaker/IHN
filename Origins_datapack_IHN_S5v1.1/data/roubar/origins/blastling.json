@@ -12,15 +12,17 @@
         "roubar:ailurophobia",
         "roubar:unworthy",
         "roubar:reset",
+        "roubar:blastling_heal",
         "roubar:scalereset",
         "roubar:pvp_toggle",
-        "roubar:uhc"
+        "roubar:uhc",
+        "upgraded:blastling_explode_fix"
     ],
     "icon": {
         "item": "minecraft:gunpowder"
     },
     "order": 5,
-    "impact": 1,
+    "impact": 2,
     "name": "Blastling",
     "description": "The first born from the chaos of the the world, Blastlings are a rare sight to behold. Their explosive natures serve as both a positive and negative for them...",
     "upgrades": {

@@ -12,12 +12,13 @@
         "upgraded:feline_resource",
         "upgraded:change_feline_resource",
         "roubar:pvp_toggle",
-        "roubar:uhc"
+        "roubar:uhc",
+        "roubar:fishes"
     ],
     "icon": "minecraft:orange_wool",
     "unchoosable": true,
     "order": 11,
-    "impact": 1,
+    "impact": 2,
     "name": "Adapted Feline",
     "description": "You killed the giant flying mouse! Now you just feel grumpy and aggressive as an Adapted Feline."
 }

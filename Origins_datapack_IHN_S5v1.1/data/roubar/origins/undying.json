@@ -12,7 +12,8 @@
         "roubar:reset",
         "roubar:scalereset",
         "roubar:pvp_toggle",
-        "roubar:uhc"
+        "roubar:uhc",
+        "roubar:undyingfix"
     ],
     "icon": {
         "item": "minecraft:soul_lantern"

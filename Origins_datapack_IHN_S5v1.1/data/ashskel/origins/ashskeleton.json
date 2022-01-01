@@ -17,8 +17,8 @@
         "roubar:uhc"
     ],
     "icon": "minecraft:wither_skeleton_skull",
-    "order": 2,
-    "impact": 0,
+    "order": 12,
+    "impact": 2,
     "name": "Ashen Skeleton",
     "description": "Your charred body rises from the depths of the nether, covered in the ash remains of your comrades you seek new purpose to escape the horrible dread of your past.",
     "upgrades": {

@@ -1,0 +1,15 @@
+{
+    "loading_priority": 1,
+    "powers": [
+        "roubar:uhc",
+        "roubar:pvp_toggle",
+        "roubar:human_buff"
+    ],
+    "icon": {
+        "item": "minecraft:player_head"
+    },
+    "order": 0,
+    "impact": 0,
+    "name": "Human",
+    "description": "You are human"
+}
