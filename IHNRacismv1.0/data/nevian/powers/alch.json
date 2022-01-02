@@ -1,0 +1,316 @@
+{
+    "name": "Alchemist's enhancements",
+    "description": "As an experimented retilpan hybrid the potions effects are more effective and negative effects are worse for you.",
+    "type": "origins:multiple",
+    "strength": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 1,
+            "name": "strength stronk"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:strength"
+        }
+    },
+    "weakness": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": -1,
+            "name": "weakness wek"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:weakness"
+        }
+    },
+    "speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": 0.05,
+            "name": "Increased sped speed"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:speed",
+            "min_amplifier": 0
+        }
+    },
+    "slow": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": -0.05,
+            "name": "Increased slow slew"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:slowness",
+            "min_amplifier": 0
+        }
+    },
+    "resist": {
+        "type": "origins:modify_damage_taken",
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:resistance",
+            "min_amplifier": 0
+        },
+            "modifier": {
+                "name": "resistance do morr",
+                "operation": "multiply_total",
+                "value": -0.05
+            }
+    },
+    "haste1": {
+        "type": "origins:modify_break_speed",
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:haste"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.05
+        }
+    },
+    "haste2": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "multiply_total",
+            "value": 0.05,
+            "name": "haste atac sped"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:haste",
+            "min_amplifier": 0
+        }
+    },
+    "fatigue1": {
+        "type": "origins:modify_break_speed",
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:mining_fatigue",
+            "min_amplifier": 0
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.05
+        }
+    },
+    "fatigue2": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "multiply_total",
+            "value": -0.05,
+            "name": "slew atac sped"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:mining_fatigue",
+            "min_amplifier": 0
+        }
+    },
+    "regeneration": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": 0.2
+        },
+        "interval": 10,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:regeneration",
+            "min_amplifier": 0
+        }
+    },
+    "wither": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": -0.4
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:wither",
+            "min_amplifier": 0
+        }
+    },
+    "poison": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": -0.4
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:poison",
+            "min_amplifier": 0
+        }
+    },
+    "absorption": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "name": "absoprtion increase bom",
+            "operation": "addition",
+            "value": 4
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:absorption"
+        }
+    },
+    "health_boost": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "name": "health boost increase bom",
+            "operation": "addition",
+            "value": 4
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:health_boost"
+        }
+    },
+    "hungy": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+        "name": "Increased exhaustion",
+        "operation": "multiply_base",
+        "value": 0.25
+        },
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:hunger",
+            "min_amplifier": 0
+        }
+    },
+    "lesshungy": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+        "name": "Increased exhaustion",
+        "operation": "multiply_base",
+        "value": -0.25
+        },
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:regeneration",
+            "min_amplifier": 0
+        }
+    },
+    "hero1": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:hero_of_the_village",
+                "show_particles": false,
+                "duration": 400,
+                "amplifier": 0
+    }
+            },
+            "interval": 20,
+            "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:hero_of_the_village",
+                "min_amplifier": 0,
+                "max_amplifier": 0
+            }
+    },
+    "hero2": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:hero_of_the_village",
+                "show_particles": false,
+                "duration": 400,
+                "amplifier": 1
+            }
+            },
+            "interval": 20,
+            "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:hero_of_the_village",
+                "min_amplifier": 1,
+                "max_amplifier": 1
+        }
+    },
+    "hero3": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:hero_of_the_village",
+                "duration": 400,
+                "amplifier": 2
+            }
+            },
+            "interval": 20,
+            "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:hero_of_the_village",
+                "min_amplifier": 2,
+                "max_amplifier": 2
+        }
+    },
+    "hero4": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:hero_of_the_village",
+                "show_particles": false,
+                "duration": 400,
+                "amplifier": 3
+            }
+            },
+            "interval": 20,
+            "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:hero_of_the_village",
+                "min_amplifier": 3,
+                "max_amplifier": 3
+        }
+    },
+    "hero5": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:hero_of_the_village",
+                "show_particles": false,
+                "duration": 400,
+                "amplifier": 4
+            }
+            },
+            "interval": 20,
+            "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:hero_of_the_village",
+                "min_amplifier": 4,
+                "max_amplifier": 4
+        }
+    }
+}

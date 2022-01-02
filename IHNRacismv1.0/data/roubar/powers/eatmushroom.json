@@ -1,0 +1,31 @@
+{
+    "name": "Fungus based metabolism",
+    "description": "Your half baked nature forces you to steal nutrients from you more fun-gi fungi",
+    "type": "origins:multiple",
+    "eat":{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 3,
+        "saturation": 2
+    },
+    "interval": 300,
+    "condition":{
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "snow:mushroom"
+        },
+        "radius": 4,
+        "shape": "cube",
+        "comparison": ">=",
+        "compare_to": 1
+        }
+    },
+    "noeat": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:food"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:trigger_cooldown",
+                "power": "origins:launch_into_air"
+            },
+            {
+                "type": "origins:trigger_cooldown",
+                "power": "upgraded:boost"
+            }
+        ]
+    },
+    "interval": 5,
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "minecraft:luck",
+        "min_amplifier": 0
+    }
+}

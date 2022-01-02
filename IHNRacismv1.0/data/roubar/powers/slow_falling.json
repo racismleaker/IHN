@@ -1,0 +1,55 @@
+{
+    "name": "Featherweight",
+    "description": "You fall to the ground like a feather:D",
+    "type": "origins:multiple",
+    "main": {
+    "type": "apoli:modify_falling",
+    "velocity": 0.01,
+    "take_fall_damage": false,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:sneaking"
+            },
+            {
+              "type": "origins:fall_flying"
+            }
+          ]
+        },
+        {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:sneaking",
+              "inverted": true
+            },
+            {
+              "type": "origins:fall_flying",
+              "inverted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "type": "origins:power_active",
+        "power": "roubar:slow_falling_toggle"
+    }
+    ]
+    }
+},
+"toggle": {
+"type": "origins:toggle",
+    "active_by_default": true,
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}
+}

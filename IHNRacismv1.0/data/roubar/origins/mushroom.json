@@ -1,0 +1,22 @@
+{
+    "powers": [
+        "roubar:eatmushroom",
+        "roubar:fire_damage",
+        "roubar:stem",
+        "roubar:mushroomwork",
+        "roubar:deathmushroom"
+    ],
+    "icon": {
+        "item": "minecraft:red_mushroom"
+    },
+    "order": 5,
+    "impact": 2,
+    "name": "Schroomite",
+    "unchoosable": true,
+    "description": "Half fungi, half guy 100% a fun guy, they came from a peaceful land one where all mobs were consumed before they had a chance to be known and when exposed to threats... well they don't do photosynthesis.",
+    "upgrades": {
+        "condition": "minecraft:end/kill_dragon",
+        "origin": "upgraded:adapted_mushroom",
+        "announcement": "You have evolved... Best check your origin again..."
+    }
+}

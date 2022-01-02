@@ -1,0 +1,43 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Snow Trail",
+    "description": "Everywhere you go, you leave behind a trail of snow.",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [{
+            "type": "origins:execute_command",
+            "command": "execute if block ~ ~ ~ air unless block ~ ~-1 ~ #snow:non_solid run setblock ~ ~ ~ snow keep",
+            "permission_level": 4
+        }]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [{
+                "type": "origins:block_in_radius",
+                "radius": 7,
+                "block_condition": {
+                    "type": "origins:or",
+                    "conditions": [{
+                            "type": "origins:block",
+                            "block": "minecraft:torch"
+                        },
+                        {
+                            "type": "origins:block",
+                            "block": "minecraft:fire"
+                        },
+                        {
+                            "type": "origins:block",
+                            "block": "minecraft:campfire"
+                        }
+                    ]
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:power_active",
+                "power": "*:snow_toggle"
+            }
+        ]
+    },
+    "interval": 2
+}

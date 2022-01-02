@@ -1,0 +1,72 @@
+{
+    "name": "Reptilian Mass",
+    "description": "Your diet is preferably consisting of meats but can eat plants for fibers though your dislike of broccoli makes you shorter",
+    "type": "origins:multiple",
+    "meat": {
+        "type": "origins:modify_food",
+    "item_condition": {
+            "type": "origins:meat"
+        },
+    "food_modifier": {
+        "name": "Increased food points",
+        "operation": "addition",
+        "value": 2.0
+    },
+    "saturation_modifier": {
+        "name": "Increased saturation points",
+        "operation": "addition",
+        "value": 0.08
+        }
+    },
+    "notmeat": {
+        "type": "origins:modify_food",
+    "item_condition": {
+            "type": "origins:meat",
+            "inverted": true
+    },
+    "food_modifier": {
+        "name": "Increased food points",
+        "operation": "multiply_base",
+        "value": -0.50
+    },
+    "saturation_modifier": {
+        "name": "Increased saturation points",
+        "operation": "multiply_base",
+        "value": -0.50
+        }
+    },
+    "short": {
+        "type": "origins:action_on_callback",
+        "entity_action_lost": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 1",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 1",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 0.9",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 0.9",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "execute_chosen_when_orb": true
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "FISHES",
+    "description": "fish",
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 1
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "minecraft:fishes"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "pain": {
+        "type": "origins:damage_over_time",
+        "interval": 5,
+        "damage": 6,
+        "damage_source": {
+            "name": "outOfWorld",
+            "unblockable": true,
+            "bypasses_armor": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:phantomize",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:in_block",
+                        "block_condition": {
+                        "type": "origins:offset",
+                       "condition": {
+                         "type": "origins:light_blocking"
+                      },
+                      "y": 1
+                    }
+                }
+            ]
+        }
+    },
+    "fix": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "inWall"
+        },
+        "entity_condition": {
+            "type": "origins:power_active",
+            "power": "*:phantomize"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        }
+    }
+}

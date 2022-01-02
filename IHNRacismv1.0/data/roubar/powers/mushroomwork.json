@@ -1,0 +1,33 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:and",
+        "actions": [{
+        "type": "origins:execute_command",
+        "command": "execute as @a[distance=..4] run resource change @s roubar:deathmushroom_resource 1",
+        "permission_level": 4
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "summon minecraft:armor_stand ~ ~ ~ {Invulnerable:1b,NoAI:1b,Tags:{nbtdata:value,tag1:set}, Invisible:1b, Marker:1b, Tags: [\"set\"]}",
+            "permission_level": 4
+        },
+        {
+            "type": "origins:delay",
+            "ticks": 5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "kill @e[tag=set,distance=..2]",
+                "permission_level": 4
+            }
+        }
+    ]
+    },
+    "interval": 2,
+    "condition": {
+        "type": "origins:health",
+        "comparison": "==",
+        "compare_to": 0
+    }
+}

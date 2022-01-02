@@ -1,0 +1,29 @@
+{
+    "powers": [
+        "upgraded:explode_jump",
+        "upgraded:blastling_explode",
+        "upgraded:change_blastling_resource",
+        "upgraded:blastling_resource",
+        "upgraded:change_blastling_resource2",
+        "upgraded:blastling_resource2",
+        "upgraded:blastling_ticking",
+        "roubar:camouflage",
+        "upgraded:unstable_frame",
+        "roubar:ailurophobia",
+        "roubar:unworthy",
+        "upgraded:explosive_resurgence",
+        "origins:fall_immunity",
+        "roubar:blastling_heal",
+        "upgraded:falldamagenegate",
+        "roubar:pvp_toggle",
+        "roubar:uhc",
+        "roubar:mushroomwork",
+        "upgraded:blastling_explode_fix"
+    ],
+    "icon": "minecraft:gunpowder",
+    "unchoosable": true,
+    "order": 12,
+    "impact": 2,
+    "name": "Adapted Blastling",
+    "description": "Taking after the dragon, you have become much more... explosive. You feel ready to blast forth into the world and explore the great lands."
+}

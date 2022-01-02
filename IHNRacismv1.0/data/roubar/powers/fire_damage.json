@@ -1,0 +1,12 @@
+{
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:fire"
+	},
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 3
+	},
+	"name": "Fungal weakness",
+	"description": "You take 3x more damage from fire."
+}

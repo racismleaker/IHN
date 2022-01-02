@@ -1,0 +1,1046 @@
+{
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 69,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "thegreatifelse1":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 2
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "thegreatifelse2":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 4
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+    "thegreatifelse3":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 6
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 3
+        }
+    },
+    "thegreatifelse4":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 8
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 4
+        }
+    },
+    "thegreatifelse5":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 10
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 5
+        }
+    },
+    "thegreatifelse6":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 12
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 6
+        }
+    },
+    "thegreatifelse7":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 14
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 7
+        }
+    },
+    "thegreatifelse8":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 16
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 8
+        }
+    },
+    "thegreatifelse9":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 18
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 9
+        }
+    },
+    "thegreatifelse10":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 20
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 10
+        }
+    },
+    "thegreatifelse11":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 22
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 11
+        }
+    },
+    "thegreatifelse12":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 24
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 12
+        }
+    },
+    "thegreatifelse13":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 26
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 13
+        }
+    },
+    "thegreatifelse14":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 28
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 14
+        }
+    },
+    "thegreatifelse15":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 30
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 15
+        }
+    },
+    "thegreatifelse16":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 32
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 16
+        }
+    },
+    "thegreatifelse17":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 34
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 17
+        }
+    },
+    "thegreatifelse18":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 36
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 18
+        }
+    },
+    "thegreatifelse19":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 38
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 19
+        }
+    },
+    "thegreatifelse20":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 40
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 20
+        }
+    },
+    "thegreatifelse21":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 42
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 21
+        }
+    },
+    "thegreatifelse22":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 44
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 22
+        }
+    },
+    "thegreatifelse23":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 46
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 23
+        }
+    },
+    "thegreatifelse24":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 48
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 24
+        }
+    },
+    "thegreatifelse25":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 50
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 25
+        }
+    },
+    "thegreatifelse26":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 52
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 26
+        }
+    },
+    "thegreatifelse27":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 54
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 27
+        }
+    },
+    "thegreatifelse28":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 56
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 28
+        }
+    },
+    "thegreatifelse29":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 58
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 29
+        }
+    },
+    "thegreatifelse30":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 60
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 30
+        }
+    },
+    "thegreatifelse31":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 62
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 31
+        }
+    },
+    "thegreatifelse32":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 64
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 32
+        }
+    },
+    "thegreatifelse33":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 66
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 33
+        }
+    },
+    "thegreatifelse34":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 68
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 34
+        }
+    },
+    "thegreatifelse35":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 70
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 35
+        }
+    },
+    "thegreatifelse36":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 72
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 36
+        }
+    },
+    "thegreatifelse37":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 74
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 37
+        }
+    },
+    "thegreatifelse38":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 76
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 38
+        }
+    },
+    "thegreatifelse39":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 78
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 39
+        }
+    },
+    "thegreatifelse40":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 80
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 40
+        }
+    },
+    "thegreatifelse41":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 82
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 41
+        }
+    },
+    "thegreatifelse42":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 84
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 42
+        }
+    },
+    "thegreatifelse43":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 86
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 43
+        }
+    },
+    "thegreatifelse44":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 88
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 44
+        }
+    },
+    "thegreatifelse45":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 90
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 45
+        }
+    },
+    "thegreatifelse46":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 92
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 46
+        }
+    },
+    "thegreatifelse47":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 94
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 47
+        }
+    },
+    "thegreatifelse48":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 96
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 48
+        }
+    },
+    "thegreatifelse49":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 98
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 49
+        }
+    },
+    "thegreatifelse50":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 100
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 50
+        }
+    },
+    "thegreatifelse51":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 102
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 51
+        }
+    },
+    "thegreatifelse52":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 104
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 52
+        }
+    },
+    "thegreatifelse53":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 106
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 53
+        }
+    },
+    "thegreatifelse54":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 108
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 54
+        }
+    },
+    "thegreatifelse55":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 110
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 55
+        }
+    },
+    "thegreatifelse56":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 112
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 56
+        }
+    },
+    "thegreatifelse57":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 114
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 57
+        }
+    },
+    "thegreatifelse58":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 116
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 58
+        }
+    },
+    "thegreatifelse59":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 118
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 59
+        }
+    },
+    "thegreatifelse60":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 120
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 60
+        }
+    },
+    "thegreatifelse61":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 122
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 61
+        }
+    },
+    "thegreatifelse62":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 124
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 62
+        }
+    },
+    "thegreatifelse63":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 126
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 63
+        }
+    },
+    "thegreatifelse64":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 128
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 64
+        }
+    },
+    "thegreatifelse65":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 130
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 65
+        }
+    },
+    "thegreatifelse66":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 132
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 66
+        }
+    },
+    "thegreatifelse67":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 134
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 67
+        }
+    },
+    "thegreatifelse68":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 136
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 68
+        }
+    },
+    "thegreatifelse69":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 138
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "roubar:deathmushroom_resource",
+            "comparison": "==",
+            "compare_to": 69
+        }
+    }
+}

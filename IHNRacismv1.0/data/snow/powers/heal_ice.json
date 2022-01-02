@@ -1,0 +1,22 @@
+{
+    "name": "Heal ice",
+    "description": "Gain regen two while on blue ice.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 40,
+            "show_particles": false
+        }
+    },
+    "interval": 60,
+    "condition": {
+        "type": "origins:on_block",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:blue_ice"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Aerial Combatant",
+    "description": "Deal 1.4 damage whilst fall flying.",
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+      "name": "Extra damage while fall flying",
+      "value": 0.4,
+      "operation": "multiply_base"
+    },
+    "condition": {
+      "type": "origins:fall_flying"
+    }
+  }

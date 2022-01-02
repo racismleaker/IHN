@@ -1,0 +1,15 @@
+{
+    "name": "Mob type recovery",
+    "description": "When standing on dark blocks you heal 1 hp every 30 seconds",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 1
+    },
+    "interval": 600,
+    "condition": {
+    "type": "origins:brightness",
+    "comparison": "<=",
+    "compare_to": 0.2
+            }
+}
