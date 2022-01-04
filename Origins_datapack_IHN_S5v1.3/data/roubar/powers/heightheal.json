@@ -12,7 +12,7 @@
     "block_condition": {
         "type": "origins:height",
         "comparison": ">",
-        "compare_to": 219
+        "compare_to": 159
     }
 }
 }

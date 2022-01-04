@@ -1,6 +1,6 @@
 {
     "name": "Poison fangs",
-    "description": "Your melee hits inflict poison 2 for 8 seconds. \nYou deal more damage against those suffering poison effect.",
+    "description": "Your melee hits inflict poison 1 for 5 seconds. \nYou deal more damage against those suffering poison effect.",
     "type": "origins:multiple",
     "poison": {
         "type": "origins:target_action_on_hit",
@@ -8,8 +8,8 @@
             "type": "origins:apply_effect",
                 "effect": {
             "effect": "minecraft:poison",
-            "duration": 160,
-            "amplifier": 1
+            "duration": 100,
+            "amplifier": 0
             }
         },
         "cooldown": 5
@@ -19,11 +19,11 @@
         "target_condition": {
             "type": "origins:status_effect",
             "effect": "minecraft:poison",
-            "min_amplifier": 1
+            "min_amplifier": 0
         },
         "modifier": {
             "operation": "multiply_total",
-            "value": 0.50
+            "value": 0.30
         }
     }
 }
