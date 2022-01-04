@@ -3,7 +3,8 @@
     "type": "origins:action_over_time",
     "rising_action": {
         "type": "origins:and",
-        "actions": [{
+        "actions": [
+            {
         "type": "origins:execute_command",
         "command": "execute as @a[distance=..4] run resource change @s roubar:deathmushroom_resource 1",
         "permission_level": 4
@@ -15,7 +16,7 @@
         },
         {
             "type": "origins:delay",
-            "ticks": 5,
+            "ticks": 20,
             "action": {
                 "type": "origins:execute_command",
                 "command": "kill @e[tag=set,distance=..2]",

@@ -1,4 +1,6 @@
 {
+    "name": "Fungal absorption",
+    "description": "When a player dies near you permanently gain +2 hp.",
     "type": "origins:multiple",
     "resource": {
         "type": "origins:resource",

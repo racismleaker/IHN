@@ -24,7 +24,7 @@
             "command": "execute at @e[tag=set,type=minecraft:armor_stand,distance=..12] run setblock ~ ~ ~ minecraft:mushroom_stem keep",
             "permission_level": 4
         },
-            {
+        {
         "type": "origins:if_else",
         "condition": {
             "type": "origins:resource",
@@ -39,7 +39,7 @@
         },
         "else_action": {
             "type": "origins:execute_command",
-            "command": "execute at @e[tag=set,type=minecraft:armor_stand,distance=..12] run setblock ~ ~ ~ minecraft:brown_mushroom_block keep",
+            "command": "execute at @e[tag=set,type=minecraft:armor_stand,distance=..12] run setblock ~ ~1 ~ minecraft:brown_mushroom_block keep",
             "permission_level": 4
         }
     }
@@ -60,9 +60,13 @@
         "should_render": false
     },
     "max_action": {
+        "type": "origins:delay",
+        "ticks": 6,
+        "action": {
         "type": "origins:change_resource",
         "resource": "roubar:stem_resource",
         "change": -1
+        }
     }
 }
 }

@@ -22,7 +22,20 @@
                 "compare_to": 0.0
             },
             {
+                "type": "origins:and",
+                "conditions": [
+                    {
                 "type": "origins:in_rain"
+                    },
+                    {
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:precipitation",
+                            "precipitation": "snow"
+                        },
+                        "inverted": true
+                    }
+                ]
             }
         ]
     }
