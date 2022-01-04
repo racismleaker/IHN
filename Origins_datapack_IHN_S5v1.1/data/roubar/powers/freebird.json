@@ -1,6 +1,6 @@
 {
     "name": "Freebird",
-    "description": "You feel rejuvinated during long flights. [Note due to origin things night vision makes you unable to heal]",
+    "description": "You feel rejuvenated during long, uninterrupted flights. [note, due to origin things the Luck effect prevents you from healing]",
     "type": "origins:multiple",
     "change": {
     "type": "origins:action_over_time",

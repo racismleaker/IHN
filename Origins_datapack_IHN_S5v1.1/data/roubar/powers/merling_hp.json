@@ -1,6 +1,6 @@
 {
     "name": "Merling recovery",
-    "description": "It's about the flow, water is the element of change.",
+    "description": "While in the sea's embrace, its power heals you over time.",
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:heal",

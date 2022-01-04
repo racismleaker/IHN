@@ -1,6 +1,6 @@
 {
     "name": "Phantom membrain",
-    "description": "Eat membrains if you dieing.(must sneak)",
+    "description": "Absorb Phantom Membrane to gain a large amount of health. Must be sneaking!",
     "type": "origins:active_self",
     "cooldown": 1200,
     "hud_render": {

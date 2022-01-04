@@ -1,14 +1,18 @@
 {
-    "hidden": true,
+    "name": "Height rejuvination",
+    "description": "You slowly regenerate health while at great heights.",
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:heal",
         "amount": 2
     },
     "interval": 600,
+    "condition": {
+        "type": "origins:on_block",
     "block_condition": {
         "type": "origins:height",
         "comparison": ">",
         "compare_to": 219
     }
+}
 }

@@ -1,6 +1,6 @@
 {
     "name": "Nevian's biology",
-    "description": "Potions give you regen",
+    "description": "Your attunement to the magical arts means a certain alchemical food grants you regeneration.",
     "type": "origins:action_on_item_use",
     "entity_action": {
         "type": "origins:apply_effect",

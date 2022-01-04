@@ -1,6 +1,6 @@
 {
     "name": "FISHES",
-    "description": "fish",
+    "description": "Heal whenever eating raw cod or salmon.",
     "type": "origins:action_on_item_use",
     "entity_action": {
         "type": "origins:heal",

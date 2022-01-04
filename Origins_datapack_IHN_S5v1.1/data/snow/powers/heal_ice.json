@@ -1,13 +1,13 @@
 {
     "name": "Heal ice",
-    "description": "Gain regen two while on blue ice.",
+    "description": "Stand on a certain extremely cold block to slowly regenerate your physical form.",
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:regeneration",
             "amplifier": 0,
-            "duration": 40,
+            "duration": 60,
             "show_particles": false
         }
     },

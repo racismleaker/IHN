@@ -1,6 +1,6 @@
 {
     "name": "Chorus eats",
-    "description": "Eat chorus fruit if you dieing.(must sneak)",
+    "description": "Absorb Chorus Fruit to gain a small amount of health. Must be sneaking!",
     "type": "origins:active_self",
     "cooldown": 1200,
     "hud_render": {

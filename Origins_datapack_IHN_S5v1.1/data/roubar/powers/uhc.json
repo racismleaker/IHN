@@ -25,18 +25,17 @@
             {
                 "type": "origins:on_block",
                 "block_condition": {
-                    "type": "origins:and",
-                    "conditions": [
-                        {
                             "type": "origins:block",
                             "block": "minecraft:bedrock"
-                        },
-                        {
-                            "type": "origins:height",
-                            "comparison": ">",
-                            "compare_to": 127
                         }
-                    ]
+            },
+            {
+                "type": "origins:on_block",
+                "block_condition":
+                {
+                    "type": "origins:height",
+                    "comparison": ">=",
+                    "compare_to": 125
                 }
             }
         ]
@@ -54,12 +53,22 @@
                         {
                     "type": "origins:amount",
                     "comparison": ">=",
-                    "compare_to": 70
+                    "compare_to": 30
                         },
                         {
                             "type": "origins:amount",
                             "compare_to": 200,
                             "comparison": "<="
+                        },
+                        {
+                            "type": "origins:name",
+                            "name": "fall",
+                            "inverted": true
+                        },
+                        {
+                            "type": "origins:name",
+                            "name": "fall.player",
+                            "inverted": true
                         }
                     ]
         },
