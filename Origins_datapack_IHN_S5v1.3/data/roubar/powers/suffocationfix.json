@@ -24,7 +24,8 @@
                         "type": "origins:offset",
                        "condition": {
                          "type": "origins:in_tag",
-                         "tag": "snow:no_suffocate"
+                         "tag": "snow:no_suffocate",
+                         "inverted": true
                       },
                       "y": 1
                     }
