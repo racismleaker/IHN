@@ -5,6 +5,9 @@
     "actions":{
     "type": "origins:self_action_on_kill",
     "entity_action":{
+        "type": "origins:delay",
+        "ticks": 5,
+        "action": {
         "type": "origins:and",
         "actions": [
             {
@@ -41,8 +44,9 @@
         }
     }
     ]
+}
     },
-    "cooldown": 0,
+    "cooldown": 1,
     "target_condition":{
         "type": "origins:power",
         "power": "roubar:mushroomwork"
