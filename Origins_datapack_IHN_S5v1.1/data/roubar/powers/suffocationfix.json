@@ -23,10 +23,15 @@
                         "block_condition": {
                         "type": "origins:offset",
                        "condition": {
-                         "type": "origins:light_blocking"
+                         "type": "origins:in_tag",
+                         "tag": "snow:no_suffocate"
                       },
                       "y": 1
                     }
+                },
+                {
+                    "type": "origins:swimming",
+                    "inverted": true
                 }
             ]
         }

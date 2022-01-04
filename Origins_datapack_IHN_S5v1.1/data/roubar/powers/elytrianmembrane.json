@@ -42,7 +42,7 @@
             },
             {
                 "type": "origins:heal",
-                "amount": 6
+                "amount": 10
             }
         ]
     },
