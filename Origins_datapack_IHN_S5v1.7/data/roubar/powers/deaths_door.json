@@ -8,11 +8,15 @@
                 "type": "origins:clear_effect"
             },
             {
+                "type": "origins:heal",
+                "amount": 20
+            },
+            {
                 "type": "origins:apply_effect",
                 "effects": [
                     {
                         "effect": "minecraft:regeneration",
-                        "amplifier": 2,
+                        "amplifier": 4,
                         "duration": 240
                     },
                     {
@@ -21,7 +25,7 @@
                     },
                     {
                         "effect": "minecraft:absorption",
-                        "amplifier": 9,
+                        "amplifier": 4,
                         "duration": 1200
                     },
                     {
@@ -33,14 +37,14 @@
             },
             {
                 "type": "origins:change_resource",
-                "resource": "upgraded:undying_resource_up",
+                "resource": "roubar:undying_resource",
                 "change": -6000
             }
         ]
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "upgraded:undying_resource_up",
+        "resource": "roubar:undying_resource",
         "comparison": "==",
         "compare_to": 6000
     }
