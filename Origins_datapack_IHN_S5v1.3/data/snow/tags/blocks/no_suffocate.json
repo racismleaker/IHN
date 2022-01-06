@@ -16,6 +16,12 @@
         "minecraft:big_dripleaf",
         "minecraft:big_dripleaf_stem",
         "minecraft:small_dripleaf",
-        "#minecraft:trapdoors"
+        "#minecraft:trapdoors",
+        "minecraft:bamboo",
+        "#minecraft:signs",
+        "#minecraft:buttons",
+        "#minecraft:cave_vines",
+        "#minecraft:corals",
+        "minecraft:iron_bars"
 	]
 }
