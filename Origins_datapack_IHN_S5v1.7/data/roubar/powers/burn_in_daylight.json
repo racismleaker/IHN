@@ -1,4 +1,6 @@
 {
+    "name": "Undead burning",
+    "description": "While not wearing a helmet burn in daylight",
     "type": "origins:burn",
     "interval": 20,
     "burn_duration": 6,
@@ -13,14 +15,14 @@
           "inverted": true
         },
         {
-    "type": "origins:equipped_item",
-    "equipment_slot": "head",
-    "item_condition": {
-        "type": "origins:armor_value",
-        "comparison": "<=",
-        "compare_to": 2
-    },
-    "inverted": true
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+                "type": "origins:armor_value",
+                "comparison": "<=",
+                "compare_to": 2
+                },
+          "inverted": true
         }
       ]
     }
