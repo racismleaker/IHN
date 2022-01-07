@@ -140,11 +140,13 @@
         }
     },
     "wither": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:heal",
-            "amount": -0.8
+        "type": "origins:damage_over_time",
+        "damage_source": {
+            "name": "magic",
+            "unblockable": false,
+            "bypasses_armor": false
         },
+        "damage": 2,
         "interval": 20,
         "condition": {
             "type": "origins:status_effect",
@@ -153,11 +155,13 @@
         }
     },
     "poison": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:heal",
-            "amount": -0.8
+        "type": "origins:damage_over_time",
+        "damage_source": {
+            "name": "magic",
+            "unblockable": false,
+            "bypasses_armor": false
         },
+        "damage": 1,
         "interval": 20,
         "condition": {
             "type": "origins:status_effect",
