@@ -69,7 +69,7 @@
         "type": "origins:trigger_cooldown",
         "power": "roubar:elytrianmembrane_cooldown"
     },
-    "entity_condition": {
+    "condition": {
     "type": "origins:resource",
     "resource": "roubar:elytrianmembrane_cooldown",
     "comparison": "==",

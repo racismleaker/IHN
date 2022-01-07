@@ -2,7 +2,7 @@
     "powers": [
         "origins:climbing",
         "upgraded:master_of_webs_up",
-        "origins:carnivore",
+        "upgraded:carnivore",
         "origins:no_cobweb_slowdown",
         "origins:arthropod",
         "upgraded:neutral_spider",
