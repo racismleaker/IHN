@@ -2,7 +2,7 @@
     "powers": [
         "origins:water_breathing",
         "origins:water_vision",
-        "origins:aqua_affinity",
+        "upgraded:aqua_affinity",
         "origins:swim_speed",
         "origins:like_water",
         "origins:aquatic",
@@ -10,7 +10,6 @@
         "origins:air_from_potions",
         "upgraded:reinforced_scale",
         "upgraded:neptune_blessing",
-        "upgraded:trident_summon",
         "roubar:pvp_toggle",
         "roubar:uhc",
         "roubar:merling_hp"
