@@ -22,6 +22,7 @@
         "#minecraft:buttons",
         "#minecraft:cave_vines",
         "#minecraft:corals",
-        "minecraft:iron_bars"
+        "minecraft:iron_bars",
+        "minecraft:glow_lichen"
 	]
 }

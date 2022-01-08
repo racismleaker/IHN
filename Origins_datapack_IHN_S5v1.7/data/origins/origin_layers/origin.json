@@ -3,7 +3,6 @@
     "order": 0,
     "enabled": true,
     "origins": [
-        "upgraded:adapted_blastling",
         "upgraded:adapted_undying",
         "upgraded:adapted_elytrian",
         "upgraded:adapted_enderian",
@@ -14,7 +13,6 @@
         "upgraded:adapted_feline",
         "upgraded:adapted_merling",
         "upgraded:adapted_arachnid",
-        "roubar:blastling",
         "roubar:undying",
         "ashskel:ashskeleton",
         "ashskel:adapted_ashskeleton",
