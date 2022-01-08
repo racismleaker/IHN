@@ -1,4 +1,5 @@
 {
+    "hidden": true,
     "type": "origins:multiple",
     "underwater": {
       "type": "origins:modify_break_speed",

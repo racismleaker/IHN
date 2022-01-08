@@ -25,11 +25,21 @@
     "pvpoff":{
         "type": "origins:modify_damage_taken",
         "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [{
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:living"
+            }
+        },
+                {
             "type": "origins:actor_condition",
             "condition": {
                 "type": "origins:power",
                 "power": "roubar:pvp_toggle"
             }
+        }
+        ]
         },
         "modifier": {
             "operation": "multiply_total",
