@@ -23,6 +23,7 @@
         "#minecraft:cave_vines",
         "#minecraft:corals",
         "minecraft:iron_bars",
-        "minecraft:glow_lichen"
+        "minecraft:glow_lichen",
+        "minecraft:cobweb"
 	]
 }
