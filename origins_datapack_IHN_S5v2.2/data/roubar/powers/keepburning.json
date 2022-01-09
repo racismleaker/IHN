@@ -1,6 +1,8 @@
 {
     "name": "Lava baths",
     "description": "\"Firebending comes from the breath! Not the muscles!\"",
+    "type": "origins:multiple",
+    "healing":{
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:heal",
@@ -13,5 +15,13 @@
         "compare_to": 0,
         "inverted": true
     },
-    "interval": 1200
+    "interval": 600
+},
+"speed": {
+    "type": "origins:modify_lava_speed",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.2
+    }
+}
 }

@@ -6,7 +6,7 @@
         "type": "origins:heal",
         "amount": 2
     },
-    "interval": 600,
+    "interval": 300,
     "condition": {
         "type": "origins:on_block",
     "block_condition": {
