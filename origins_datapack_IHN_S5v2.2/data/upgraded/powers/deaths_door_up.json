@@ -9,16 +9,11 @@
             },
             {
                 "type": "origins:heal",
-                "amount": 20
+                "amount": 40
             },
             {
                 "type": "origins:apply_effect",
                 "effects": [
-                    {
-                        "effect": "minecraft:regeneration",
-                        "amplifier": 5,
-                        "duration": 240
-                    },
                     {
                         "effect": "minecraft:fire_resistance",
                         "duration": 1200

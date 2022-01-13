@@ -26,6 +26,8 @@
         "minecraft:glow_lichen",
         "minecraft:cobweb",
         "#snow:alotofstuff",
-        "minecraft:air"
+        "minecraft:air",
+        "minecraft:void_air",
+        "minecraft:cave_air"
 	]
 }

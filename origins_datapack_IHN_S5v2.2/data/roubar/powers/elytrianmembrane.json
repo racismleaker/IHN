@@ -82,5 +82,17 @@
     "hud_render": {
         "should_render": false
     }
+},
+"bed_die":{
+    "type": "origins:prevent_block_use",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "#minecraft:beds"
+    },
+    "entity_condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:overworld",
+        "inverted": true
+    }
 }
 }

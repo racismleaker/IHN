@@ -1,6 +1,6 @@
 {
     "name": "Undead burning",
-    "description": "While not wearing a helmet burn in daylight",
+    "description": "While not wearing a proper helmet burn in daylight",
     "type": "origins:burn",
     "interval": 20,
     "burn_duration": 6,
